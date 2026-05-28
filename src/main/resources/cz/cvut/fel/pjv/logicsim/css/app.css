@@ -1,0 +1,125 @@
+.main-window {
+  -fx-background-color: #0b0b0f;
+}
+
+.top-menu {
+  -fx-border-color: #c9ced6;
+  -fx-border-width: 0 0 1 0;
+  -fx-background-color: #f8f9fb;
+}
+
+.right-toolbar {
+  -fx-padding: 16;
+  -fx-border-color: #c9ced6;
+  -fx-border-width: 0 0 0 1;
+  -fx-background-color: #f8f9fb;
+}
+
+.toolbar-section-title {
+  -fx-text-fill: #475569;
+  -fx-font-weight: bold;
+}
+
+.toolbar-button,
+.tool-button {
+  -fx-background-color: #ffffff;
+  -fx-border-color: #c9ced6;
+  -fx-text-fill: #1e293b;
+}
+
+.tool-button-selected {
+  -fx-background-color: #dce7f8;
+  -fx-border-color: #7da2d6;
+  -fx-text-fill: #15365c;
+  -fx-font-weight: bold;
+}
+
+.simulation-run {
+  -fx-background-color: #b8e6b8;
+  -fx-text-fill: #17361b;
+  -fx-font-weight: bold;
+}
+
+.simulation-stop {
+  -fx-background-color: #e28a8a;
+  -fx-text-fill: #1e293b;
+  -fx-font-weight: bold;
+}
+
+.simulation-reset {
+  -fx-background-color: #cccccc;
+  -fx-text-fill: #1e293b;
+  -fx-font-weight: bold;
+}
+
+.editor-log-message {
+  -fx-font-size: 13px;
+  -fx-font-weight: bold;
+  -fx-padding: 0;
+  -fx-background-color: transparent;
+}
+
+.editor-log-info {
+  -fx-text-fill: #57c84d;
+}
+
+.editor-log-error {
+  -fx-text-fill: #d94c4c;
+}
+
+.modal-overlay {
+  -fx-alignment: center;
+  /*-fx-background-color: rgba(10, 15, 20, 0.45);*/
+  -fx-padding: 24;
+}
+
+.modal-card {
+  -fx-background-color: #f8f9fb;
+  -fx-background-radius: 12;
+  -fx-border-color: #c9ced6;
+  -fx-border-radius: 12;
+  -fx-padding: 20;
+  -fx-border-width: 3px;
+}
+
+.modal-title {
+  -fx-font-size: 18px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #111827;
+}
+
+.modal-header {
+  -fx-font-size: 14px;
+  -fx-font-weight: bold;
+  -fx-text-fill: #1f2937;
+}
+
+.modal-content {
+  -fx-font-size: 13px;
+  -fx-text-fill: #334155;
+}
+
+.modal-close-button {
+  -fx-background-color: #dce7f8;
+  -fx-border-color: #000000;
+  -fx-text-fill: #000000;
+  -fx-font-weight: bold;
+}
+
+.modal-actions {
+  -fx-alignment: center-right;
+}
+
+.modal-primary-button {
+  -fx-background-color: #b8e6b8;
+  -fx-border-color: #87c487;
+  -fx-text-fill: #17361b;
+  -fx-font-weight: bold;
+}
+
+.modal-secondary-button {
+  -fx-background-color: #ffffff;
+  -fx-border-color: #c9ced6;
+  -fx-text-fill: #1e293b;
+  -fx-font-weight: bold;
+}

@@ -1,0 +1,34 @@
+package cz.cvut.fel.pjv.logicsim;
+
+/**
+ * Maps all components that can be added to the editor
+ */
+public enum ComponentsMap {
+  NONE,
+  AND_GATE,
+  OR_GATE,
+  NOT_GATE,
+  NAND_GATE,
+  NOR_GATE,
+  XOR_GATE,
+  XNOR_GATE,
+  LOGICAL_ONE,
+  LOGICAL_ZERO,
+  CLOCK_GENERATOR,
+  LOGICAL_OUTPUT,
+  LIGHT_BULB,
+  JK_FLIP_FLOP,
+  D_FLIP_FLOP,
+  T_FLIP_FLOP,
+  COUNTER,
+  MULTIPLEXOR,
+  DEMULTIPLEXOR,
+  SEVEN_SEGMENT_DECODER,
+  SEVEN_SEGMENT_DISPLAY,
+  RING_COUNTER,
+  FULL_ADDER,
+  HALF_ADDER,
+  HIGH_INPUT,
+  LOW_INPUT,
+  LATCH
+}
