@@ -34,7 +34,6 @@ mvn clean javafx:run
 
 ## Shortcuts
 
-Najčastejšie skratky:
 - `Ctrl/Cmd + N` new circuit
 - `Ctrl/Cmd + O` open a new circuit from folder
 - `Ctrl/Cmd + S` save to JSON
